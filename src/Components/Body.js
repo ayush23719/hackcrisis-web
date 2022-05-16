@@ -1,7 +1,13 @@
 import React from 'react'
 import './Body.css'
-export default function Hi() {
+import Cards from "./Cards";
+export default function Body() {
   return (
-    <div className="main">Hi</div>
+    <>
+   <div className="container">
+     <center><h1 className="header">Welcome! Take a Mental Health Quiz</h1></center>
+     <Cards />
+   </div>
+   </>
   )
 }
