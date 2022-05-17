@@ -7,16 +7,16 @@ export default function Cards() {
   
   <div class="cards">
     <div class="card card-1">
-      <div className="wave">
+      
       <h2 class="card__title">Improve Sleep Quality</h2>
       <p class="card__apply">
         <a class="card__link" href="#">Take Quiz <i class="fas fa-arrow-right"></i></a>
       </p>
-      </div>
+    
     </div>
     <div class="card card-2">
       <p class="card__exit"><i class="fas fa-times"></i></p>
-      <h2 class="card__title">Reduce Stress or Anxiety</h2>
+      <h2 class="card__title">Reduce Stress</h2>
       <p class="card__apply">
         <a class="card__link" href="#">Take Quiz <i class="fas fa-arrow-right"></i></a>
       </p>
