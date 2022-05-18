@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    z-index: -1;
   }
   
   .card {
@@ -38,6 +39,7 @@
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
+    border: 1px solid black;
   }
   
   .card:hover {
@@ -50,7 +52,7 @@
   .card__icon {
     position: relative;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
+    color: black;
   }
   
   .card__link::after {
@@ -60,7 +62,7 @@
     content: "";
     width: 0%;
     height: 3px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: black;
     transition: all 0.5s;
   }
   
@@ -81,7 +83,7 @@
   .card__title {
     grid-row: 3/4;
     font-weight: 400;
-    color: #ffffff;
+    color: black;
   }
   
   .card__apply {
@@ -91,22 +93,27 @@
   
   
   .card-1 {
-    background: radial-gradient(#54DBDE, #5493DE);
+    background: white;
+    border-left: 5px solid #00BF00;
   }
   .card-2 {
-    background: radial-gradient(#fbc1cc, #fa99b2);
+    background: white;
+    border-left: 5px solid red;
   }
   
   .card-3 {
-    background: radial-gradient(#76b2fe, #b69efe);
+    background: white;
+    border-left: 5px solid orange;
   }
   
   .card-4 {
-    background: radial-gradient(#60efbc, #58d5c9);
+    background: white;
+    border-left: 5px solid blue;
   }
   
   .card-5 {
-    background: radial-gradient(#f588d8, #c0a3e5);
+    background: white;
+    border-left: 5px solid magenta;
   }
   
   @media (max-width: 1600px) {

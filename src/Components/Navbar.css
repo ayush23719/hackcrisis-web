@@ -76,15 +76,16 @@
     color: black;
   }
   .navigation-menu ul {
-    dipslay: none;
+    display: none;
     position: absolute;
     top: 60px;
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(35vh - 77px);
+    height: calc(200vh - 77px);
     background-color: white;
     border-top: 1px solid black;
+    z-index: 5;
   }
   .navigation-menu li {
     text-align: center;
@@ -99,6 +100,6 @@
 @media screen and (max-width: 768px) {
   .navigation-menu.expanded ul {
     display: block;
-    height: 28vh;
+    height: 200vh;
   }
 }
