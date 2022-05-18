@@ -1,20 +1,23 @@
 .navigation {
-  height: 60px;
+  height: 10px;
   width: 100%;
   display: flex;
   align-items: center;
-  position: relative;
-  padding: 2rem 3rem;
+  position: fixed;
+  padding: 4.5rem 3rem;
   background-color: black;
   opacity: 0.8;
   color: white;
   font-size: 1.2rem;
+  z-index: 10;
 }
+
 .brand-name {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
   margin-left: 1rem;
+  padding-top: 3rem;
 }
 .brand-name:hover {
   transition: 0.3s ease;;
@@ -37,6 +40,7 @@
   list-style-type: none;
   margin: 0 1rem;
   color: white;
+  padding-top: 3rem;
 }
 .navigation-menu li a {
   color: white;
@@ -74,9 +78,13 @@
   .navigation{
     background-color: white;
     opacity: 1;
+    position: relative;
+    padding:2rem 2rem;
+    height: 10px;
   }
   .brand-name{
     color: black;
+    padding: 0px;
   }
   .navigation-menu ul {
     display: none;
@@ -93,6 +101,7 @@
   .navigation-menu li {
     text-align: center;
     margin: 0;
+    padding-top: 0px;
   }
   .navigation-menu li a {
     color: black;
