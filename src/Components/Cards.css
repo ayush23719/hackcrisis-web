@@ -52,7 +52,7 @@
   .card__icon {
     position: relative;
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .card__link::after {
@@ -62,7 +62,7 @@
     content: "";
     width: 0%;
     height: 3px;
-    background-color: black;
+    background-color: white;
     transition: all 0.5s;
   }
   
@@ -83,7 +83,7 @@
   .card__title {
     grid-row: 3/4;
     font-weight: 400;
-    color: black;
+    color: white;
   }
   
   .card__apply {
@@ -93,26 +93,26 @@
   
   
   .card-1 {
-    background: white;
+    background: #2F3136;
     border-left: 5px solid #00BF00;
   }
   .card-2 {
-    background: white;
+    background: #2F3136;
     border-left: 5px solid red;
   }
   
   .card-3 {
-    background: white;
+    background: #2F3136;
     border-left: 5px solid orange;
   }
   
   .card-4 {
-    background: white;
+    background: #2F3136;
     border-left: 5px solid blue;
   }
   
   .card-5 {
-    background: white;
+    background: #2F3136;
     border-left: 5px solid magenta;
   }
   

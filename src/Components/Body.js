@@ -5,7 +5,7 @@ export default function Body() {
   return (
     <>
    <div className="container">
-     <center><h1 className="header">Welcome! Take a Mental Health Quiz</h1></center>
+     <center><h1 className="header">Welcome! Test Your Mental Health</h1></center>
      <Cards />
    </div>
    </>
